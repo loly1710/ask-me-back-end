@@ -35,7 +35,7 @@ An open platform for everyone where users can post questions or problems they fa
 ### 1. Home Page
 ![Home Page Wireframe](assests/1.png)
 
-### 2. Sign-Up Page
+### 2. All Questions Page
 ![Sign-Up Page Wireframe](assests/2.png)
 
 ### 3. Question Details Page
