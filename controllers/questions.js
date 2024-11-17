@@ -21,7 +21,7 @@ router.post('/', async (req, res) => {
     }
 })
 
-// INDEX - GET ALL THE QUESTIONS
+// INDEX - GET ALL THE QUESTIONS - I will do it tomorrow
 
 
 // SHOW - GET ONE QUESTION
