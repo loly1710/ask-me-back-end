@@ -1,6 +1,5 @@
 const express = require('express')
 const verifyToken = require('../middleware/verify-token')
-const question = require('../models/question')
 const Question = require('../models/question')
 const router = express.Router()
 
@@ -56,6 +55,19 @@ router.put('/:questionId', async (req, res) => {
 
 
 // DELETE A QUESTION
+router.delete('/:questionId', async (req, res) => {
+    try {
+        const question = await Question.findById(req.params.questionId)
+
+        if (!question.author.equals(req.user._id)) {
+            return res.status(403).send("You're not allowed to do that!")
+        }
+        const deletedQuestion = await Question.findByIdAndDelete(req.params.questionId)
+        res.status(200).json(deletedQuestion)
+    } catch (error) {
+        res.status(500).json(error)
+    }
+})
 
 
 // CREATE A COMMENT
@@ -90,6 +102,16 @@ router.put('/:questionId/comments/:commentId', async (req, res) => {
 });
 
 // DELETE A COMMENT
+router.delete('/:questionId/comments/:commentId', async (req, res) => {
+    try {
+        const question = await Question.findById(req.params.questionId)
+        question.comments.remove({ _id: req.params.commentId })
+        await question.save()
+        res.status(200).json({ message: "Ok" })
+    } catch (error) {
+        res.status(500).json(error)
+    }
+})
 
 
 
