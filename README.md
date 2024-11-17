@@ -111,16 +111,5 @@ An open platform for everyone where users can post questions or problems they fa
 2. Remove the comment from the database.
 3. Confirm deletion or return an error if unauthorized.
 
-### Viewing Questions by Tags
-1. User selects tags of interest.
-2. Retrieve questions associated with the tags from the database.
-3. Display the questions.
-
-### Liking an Answer
-1. Check if the user is logged in.
-2. Increase the like count for the answer in the database.
-3. Confirm successful like.
-
----
 
 
