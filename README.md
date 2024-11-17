@@ -41,7 +41,7 @@ An open platform for everyone where users can post questions or problems they fa
 ### 3. Question Details Page
 ![Question Details Wireframe](assests/3.png)
 
-### 4. User Dashboard
+### 4. Post New Question
 ![User Dashboard Wireframe](assests/4.png)
 
 ---
