@@ -22,10 +22,28 @@ router.post('/', async (req, res) => {
 })
 
 // INDEX - GET ALL THE QUESTIONS - I will do it tomorrow
-
+router.get('/', async(req, res) => {
+    try {
+        const questions = await Question.find({})
+        .populate('author')
+        .sort({createdAt:'desc'});
+        res.status(200).json(questions);
+    } catch (error) {
+        res.status(500).json(error);
+    }
+})
 
 // SHOW - GET ONE QUESTION
+router.get('/:questionId', async(req,res) => {
+    try {
+         const question = await Question.findById(req.params.questionId).populate('author');
+         res.status(200).json(question);
+    } catch (error) {
+        res.status(500).json(error);
+    }
+   
 
+})
 
 // UPDATE A QUESTION
 router.put('/:questionId', async (req, res) => {
