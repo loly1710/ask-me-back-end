@@ -92,7 +92,7 @@ router.delete('/:questionId', async (req, res) => {
 router.post('/:questionId/comments', async (req, res) => {
     try {
         req.body.author = req.user._id
-        const question = await question.findById(req.params.questionId)
+        const question = await Question.findById(req.params.questionId)
         question.comments.push(req.body)
         await question.save()
 
