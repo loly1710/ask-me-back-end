@@ -110,7 +110,7 @@ router.post('/:questionId/comments', async (req, res) => {
 router.put('/:questionId/comments/:commentId', async (req, res) => {
     try {
       const question = await Question.findById(req.params.questionId);
-      const comment = hoot.comments.id(req.params.commentId);
+      const comment = question.comments.id(req.params.commentId);
       comment.text = req.body.text;
       await question.save();
       res.status(200).json({ message: 'Ok' });
