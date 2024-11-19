@@ -24,7 +24,7 @@ app.use(express.json())
 app.use('/test-jwt', testJWTRouter)
 app.use('/users', usersRouter)
 app.use('/profiles', profilesRouter)
-app.use('/question', questionsRouter)
+app.use('/questions', questionsRouter)
 
 app.listen(3000, () => {
   console.log('The express app is ready!')
