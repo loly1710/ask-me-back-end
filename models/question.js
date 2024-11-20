@@ -1,14 +1,25 @@
 const mongoose = require('mongoose');
 
 
-const commentSchema = new mongoose.Schema(
+const replySchema = new mongoose.Schema(
   {
       text: { type: String, required: true },
       author: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
+      likes: { type: Number, default: 0 },
   },
   { timestamps: true }
 );
 
+
+const commentSchema = new mongoose.Schema(
+  {
+      text: { type: String, required: true },
+      author: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
+      likes: { type: Number, default: 0 },
+      replies: [replySchema], 
+  },
+  { timestamps: true }
+);
 
 const questionSchema = new mongoose.Schema(
   {
@@ -41,7 +52,6 @@ const questionSchema = new mongoose.Schema(
   },
   { timestamps: true }
 );
-
 
 const Question = mongoose.model('Question', questionSchema);
 
