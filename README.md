@@ -28,7 +28,7 @@ An open platform for everyone where users can post questions or problems they fa
 ---
 
 ## Wireframes
-### 2. logo 
+### 1. logo 
 ![Logo](https://github.com/user-attachments/assets/24b61437-36b2-455b-9ce8-f54c3a12b261)
 
 
