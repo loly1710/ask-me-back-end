@@ -1,8 +1,4 @@
 # ASK ME
-
-An open platform for everyone where users can post questions or problems they face and seek answers or solutions from others. Users can publish their inquiries by selecting the type of problem or question.
-
-
 ## Description
 An open platform for everyone where users can post questions or problems they face and seek answers or solutions from others. Users can publish their inquiries by selecting the type of problem or question.
 
@@ -116,8 +112,7 @@ An open platform for everyone where users can post questions or problems they fa
 2. Remove the comment from the database.
 3. Confirm deletion or return an error if unauthorized.
 
-
-
-### futur work 
+---
+### futur work
 1. Like button for post, comment and replay.
 2. close the post so no more replays.
