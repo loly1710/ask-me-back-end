@@ -22,12 +22,11 @@ An open platform for everyone where users can post questions or problems they fa
   - Edit my comment to fix mistakes or clarify my input.
   - Delete my comment to remove unwanted content.
   - View questions categorised by tags to easily find topics of interest.
-  - Like answers so others can know which answers are preferred.
 
 ---
 
 ## Data Models
-![ERD Wireframe](assests/ERD.PNG)
+![ERD](assests/ERD.PNG)
 
 ---
 
