@@ -40,7 +40,13 @@ An open platform for everyone where users can post questions or problems they fa
 ![User Dashboard Wireframe](assests/4.png)
 
 ---
+## Technologys
+1. React
+2. jsx
+3. Css
+4. javaScript
 
+---
 ## Pseudocode
 
 ### Signing Up
@@ -108,3 +114,6 @@ An open platform for everyone where users can post questions or problems they fa
 
 
 
+### futur work 
+1. Like button for post, comment and replay.
+2. close the post so no more replays.
