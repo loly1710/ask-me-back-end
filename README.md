@@ -28,22 +28,26 @@ An open platform for everyone where users can post questions or problems they fa
 ---
 
 ## Wireframes
-### 1. Home Page
-![Home Page Wireframe]![image](https://github.com/user-attachments/assets/a7ec69ef-7b01-4ed7-9798-60acb8d9f1ed)
-()
-)
+### 2. logo 
+![Logo](https://github.com/user-attachments/assets/24b61437-36b2-455b-9ce8-f54c3a12b261)
 
-### 2. Questions Page
-![Sign-Up Page Wireframe](![image_720](https://github.com/user-attachments/assets/a890860e-8286-4a2c-a2f7-eb5ee5092f1c)
-)
 
-### 3. Question Details Page
-![Question Details Wireframe](![image_720](https://github.com/user-attachments/assets/d91602ad-6502-4f6e-8119-3acfc79e3b42)
-)
+### 2. Home Page
+![Home Page Wireframe](https://github.com/user-attachments/assets/56867b0e-19d7-4309-8298-5899254f1ecb)
 
-### 4. Post New Question
-![User Dashboard Wireframe](![image_720](https://github.com/user-attachments/assets/e5c48fed-0ed0-461c-9541-d665c47b13a8)
-)
+
+### 3. Questions Page
+![](https://github.com/user-attachments/assets/3af73312-15a3-47ad-bf32-d214f671832f)
+
+
+
+### 4. Question Details Page
+![ign-Up Page Wireframe](https://github.com/user-attachments/assets/ecff8d11-7acd-4839-a9c2-9b4cbc7ec555)
+
+
+### 5. Post New Question
+![image (4)](https://github.com/user-attachments/assets/1621f7b2-9a46-4528-834e-f8be6e8e62c6)
+
 
 ---
 ## Technologys
