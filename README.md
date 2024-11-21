@@ -29,7 +29,8 @@ An open platform for everyone where users can post questions or problems they fa
 
 ## Wireframes
 ### 1. Home Page
-![Home Page Wireframe](![image_720](https://github.com/user-attachments/assets/20bd2e74-e4ab-406a-822d-f6c8d3eac5d8)
+![Home Page Wireframe]![image](https://github.com/user-attachments/assets/a7ec69ef-7b01-4ed7-9798-60acb8d9f1ed)
+()
 )
 
 ### 2. Questions Page
