@@ -27,7 +27,7 @@ An open platform for everyone where users can post questions or problems they fa
 ---
 
 ## Data Models
-![Home Page Wireframe](assests/1.png)
+![ERD Wireframe](assests/ERD.PNG)
 
 ---
 
