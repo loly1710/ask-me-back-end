@@ -2,6 +2,10 @@ const express = require('express')
 const verifyToken = require('../middleware/verify-token')
 const Question = require('../models/question')
 const router = express.Router()
+const nodemailer = require('nodemailer');
+require('dotenv').config();
+
+
 
 // ========= Public Routes ===========
 
@@ -9,6 +13,29 @@ const router = express.Router()
 // ======= Protected Routes ==========
 router.use(verifyToken)
 
+
+let transporter = nodemailer.createTransport({
+    service: 'gmail',
+    auth: {
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASS,
+    },
+});
+
+ // Email sending function
+ const sendEmail = async (to, subject, text) => {
+    try {
+        await transporter.sendMail({
+            from: '"ASK ME" eventplannergabh@gmail.com',
+            to,
+            subject,
+            text,
+        });
+    } catch (error) {
+        console.error('Error sending email:', error);
+    }
+ };
+ 
 // CREATE question
 router.post('/', async (req, res) => {
     try {
@@ -104,10 +131,13 @@ router.post('/:questionId/comments', async (req, res) => {
         const question = await Question.findById(req.params.questionId)
         question.comments.push(req.body)
         await question.save()
-
         const newComment = question.comments[question.comments.length - 1]
-
         newComment._doc.author = req.user
+
+        const emailquestion = await Question.findById(req.params.questionId).populate('author', 'email');
+        const subject = 'New Comment on Your Question';
+        const text = `A new comment has been added to your question titled "${question.title}". Comment: "${req.body.text}".`;
+        sendEmail(emailquestion.author.email, subject, text);
 
         res.status(201).json(newComment)
     } catch (error) {
