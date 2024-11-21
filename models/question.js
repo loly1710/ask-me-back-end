@@ -5,7 +5,6 @@ const replySchema = new mongoose.Schema(
   {
       text: { type: String, required: true },
       author: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
-      likes: { type: Number, default: 0 },
   },
   { timestamps: true }
 );
@@ -15,7 +14,6 @@ const commentSchema = new mongoose.Schema(
   {
       text: { type: String, required: true },
       author: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
-      likes: { type: Number, default: 0 },
       replies: [replySchema], 
   },
   { timestamps: true }
