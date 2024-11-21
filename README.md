@@ -29,16 +29,20 @@ An open platform for everyone where users can post questions or problems they fa
 
 ## Wireframes
 ### 1. Home Page
-![Home Page Wireframe](assests/1.png)
+![Home Page Wireframe](![image_720](https://github.com/user-attachments/assets/20bd2e74-e4ab-406a-822d-f6c8d3eac5d8)
+)
 
 ### 2. Questions Page
-![Sign-Up Page Wireframe](assests/2.png)
+![Sign-Up Page Wireframe](![image_720](https://github.com/user-attachments/assets/a890860e-8286-4a2c-a2f7-eb5ee5092f1c)
+)
 
 ### 3. Question Details Page
-![Question Details Wireframe](assests/3.png)
+![Question Details Wireframe](![image_720](https://github.com/user-attachments/assets/d91602ad-6502-4f6e-8119-3acfc79e3b42)
+)
 
 ### 4. Post New Question
-![User Dashboard Wireframe](assests/4.png)
+![User Dashboard Wireframe](![image_720](https://github.com/user-attachments/assets/e5c48fed-0ed0-461c-9541-d665c47b13a8)
+)
 
 ---
 ## Technologys
