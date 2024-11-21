@@ -1,12 +1,9 @@
 # ASK ME
-
-An open platform for everyone where users can post questions or problems they face and seek answers or solutions from others. Users can publish their inquiries by selecting the type of problem or question.
-
-
-## Description
-An open platform for everyone where users can post questions or problems they face and seek answers or solutions from others. Users can publish their inquiries by selecting the type of problem or question.
-
 ---
+## Description
+
+An open platform for everyone where users can post questions or problems they face and seek answers or solutions from others. Users can publish their inquiries by selecting the type of problem or question.
+
 
 ## User Stories
 - **As a new user**, I want to sign up using my email and password, so that I can create an account to interact with the platform.
