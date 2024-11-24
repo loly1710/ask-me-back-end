@@ -29,24 +29,29 @@ An open platform for everyone where users can post questions or problems they fa
 
 ## Wireframes
 ### 1. logo 
-![Logo](https://github.com/user-attachments/assets/24b61437-36b2-455b-9ce8-f54c3a12b261)
+![Logo](https://github.com/user-attachments/assets/8dd76308-f2d1-40e7-adea-2f8f3ba418e2)
+
 
 
 ### 2. Home Page
-![Home Page Wireframe](https://github.com/user-attachments/assets/56867b0e-19d7-4309-8298-5899254f1ecb)
+![HOME PAGE](https://github.com/user-attachments/assets/4f4b02bf-6fda-41ac-93e4-334a0422191b)
+
 
 
 ### 3. Questions Page
-![](https://github.com/user-attachments/assets/3af73312-15a3-47ad-bf32-d214f671832f)
+
+![QUESTIONS PAGE](https://github.com/user-attachments/assets/0caf5607-659e-4d9c-aa0e-67a04b893b65)
 
 
 
-### 4. Question Details Page
-![ign-Up Page Wireframe](https://github.com/user-attachments/assets/ecff8d11-7acd-4839-a9c2-9b4cbc7ec555)
+### 4. Sign in page
+
+![SIGN IN PAGE](https://github.com/user-attachments/assets/85c0812b-eb4d-43b2-8ad5-79476857dea9)
 
 
 ### 5. Post New Question
-![image (4)](https://github.com/user-attachments/assets/1621f7b2-9a46-4528-834e-f8be6e8e62c6)
+![ADD POST](https://github.com/user-attachments/assets/3c635e3f-3ad2-43e0-8de2-5a7ed8c31b8d)
+
 
 
 ---
