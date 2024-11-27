@@ -8,7 +8,7 @@ An open platform for everyone where users can post questions or problems they fa
 
 To explore the Ask Me App:
 
-- [Deployed App](https://ask-me-front-8ryqflq3x-layla-baders-projects.vercel.app/)
+- [Deployed App](https://ask-me-front-end-phi.vercel.app/)
 
 ## User Stories
 - **As a new user**, I want to sign up using my email and password, so that I can create an account to interact with the platform.
