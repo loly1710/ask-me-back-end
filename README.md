@@ -5,10 +5,13 @@
 An open platform for everyone where users can post questions or problems they face and seek answers or solutions from others. Users can publish their inquiries by selecting the type of problem or question.
 
 ## Getting Started
-
 To explore the Ask Me App:
+- [Ask Me App](https://ask-me-front-end-phi.vercel.app/)
 
-- [Deployed App](https://ask-me-front-end-phi.vercel.app/)
+## Front-End & Back-End Repo
+- [Front End Repo](https://github.com/loly1710/ask-me-front-end.git)
+- [Back End Repo](https://github.com/loly1710/ask-me-back-end.git)
+  
 
 ## User Stories
 - **As a new user**, I want to sign up using my email and password, so that I can create an account to interact with the platform.
